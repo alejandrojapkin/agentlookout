@@ -1,6 +1,6 @@
 # agentlookout
 
-Remove unwanted macOS launch agents
+Remove unwanted macOS launch agents 
 
 ```
 $ agentlookout
@@ -20,7 +20,7 @@ Can be uninstalled by running `make uninstall`.
 
 ## Usage
 
-Run `agentlookout` with root access to find all launch agents not included in the exception list. Before deletion all launch agents that will be removed are listed and user is asked to confirm they want to delete.
+Run `agentlookout` with sudo (root) access to find all launch agents not included in the exception list. Before deletion all launch agents that will be removed are listed and user is asked to confirm they want to delete.
 
 ## What is a launch agent?
 
